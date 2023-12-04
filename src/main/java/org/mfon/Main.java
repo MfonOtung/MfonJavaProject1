@@ -29,6 +29,9 @@ public class Main {
             System.out.println("You are an adult");
         }
 
+        //
+        double carPrice = 20879000;
+
     }
 
 }
