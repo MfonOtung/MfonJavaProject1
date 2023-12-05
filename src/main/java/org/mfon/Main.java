@@ -32,6 +32,22 @@ public class Main {
         //
         double carPrice = 20879000;
 
+        /*Assignment 1:
+        Write a for loop for I going from 0 to 12.
+        If I is even number then print it.*/
+
+                int number=12;
+                System.out.print("List of even numbers from 1 to "+number+": ");
+                for (int I=1; I<=number; I++)
+                {
+
+                    if (I%2==0)
+                    {
+                        System.out.print(I + " ");
+                    }
+                }
+
+
     }
 
 }
