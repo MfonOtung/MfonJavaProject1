@@ -4,6 +4,12 @@ import java.util.Date;
 
 public class Vehicle {
 
+    public Vehicle() {
+    }
+
+    public Vehicle(String brand) {
+        this.brand = brand;
+    }
 
     public String brand;
     public String model;
